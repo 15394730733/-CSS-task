@@ -1,0 +1,33 @@
+html{font-size: 62.5%}
+body{width：100%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    min-width:320px;
+    _width:expression((document.documentElement.clientWidth||document.body.clientWidth)<320?"320px":"");
+}
+.a{width: 100%;
+   height: 4.5rem;
+    margin: 0;
+    padding: 0;
+    border: none;
+   background-color: #5fc0cd;
+   font-size: 2rem;
+   color: #FFFFFF;
+   text-align: center;
+   line-height: 240%}
+.b{width: 1.5rem;
+    height: 4rem;
+    position:absolute;
+    left: 1.5rem}
+.c{
+    width: 100vw;;
+    height: 16rem;
+    background: url("./images/task5-1_02.png");
+   background-size: cover;  }
+.d{width:8.5rem;
+    height: 8.5rem;
+    border-radius: 4.25rem;
+    background-color: #efefef;
+    position: absolute;
+    top:8rem;}
