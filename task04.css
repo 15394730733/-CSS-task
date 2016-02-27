@@ -29,12 +29,12 @@ html{font-size: 62.5%}
     background-color: white;
     position: relative;
     top: 0.8rem}
- .textbox{
+ .textbox{width: 70%;
     height: 4.7rem;
      border: 0;
      margin: 0;
      padding: 0;
-    color:#e1e5e7;
+     outline: medium;
     font-size: 1.6rem;
     position: relative;
     top: -2rem}
