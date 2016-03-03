@@ -1,12 +1,13 @@
 html{font-size: 62.5%}
-body{width：100%;
+body{width:100%;
     height:100%;
-    margin: 0;
-    padding: 0;
+    margin: 0 0 10% 0;
+    padding: 0 0 10% 0;
     min-width:320px;
     _width:expression((document.documentElement.clientWidth||document.body.clientWidth)<320?"320px":"");
 }
-.a{width: 100%;
+.head,.head-background,.row-one{width: 100%}
+.head{
    height: 4.5rem;
     margin: 0;
     padding: 0;
@@ -16,127 +17,193 @@ body{width：100%;
    color: #FFFFFF;
    text-align: center;
    line-height: 240%}
-.b{width: 1.5rem;
+.arrow{width: 1.5rem;
     height: 4rem;
     position:absolute;
     left: 1.5rem}
-.c{width: 100%;;
-    height: 16rem;
+.head-background
+     {height: 16rem;
     background: url("./images/task5-1_02.png");
-   background-size: cover;  }
-.d{width:8.5rem;
+   background-size: cover;}
+.portrait
+    {width:8.5rem;
     height: 8.5rem;
     border-radius: 4.25rem;
+    font-size: 2rem;
+    text-indent: 13rem;
+    color: white;
+    line-height: 300%;
     background: url("./images/task5-1_05.png");
     background-size: cover;
     position: absolute;
     top:8rem;
     left: 2rem}
-.e{color: white;
-    font-size: 2rem;
-    line-height: 180%;
+.head-text
+    {color: white;
+    font-size: 1.8rem;
+    line-height: 5rem;
     position: absolute;
-   top: 9rem;
-   left: 6rem}
-.f{color: white;
-    font-size: 1.3rem;
+    top: 8.5rem;
+    left: 13rem;
+}
+.icon{
     position: absolute;
-    top:1.9rem;
-    left: 8.9rem}
-.g{width: 100%;
-   height: 5rem;
-    font-size: 2rem;
-    line-height: 200%;
-    text-indent: 5rem;
-   border-bottom: solid thin #e1e5e7;}
-.g1{width: 100%;
-    height: 5rem;
-    font-size: 2rem;
+    top: 12.5rem;
+    left: 13rem;
+}
+.head-text-small
+    {color: white;
+    font-size: 1.35rem;
+    position: absolute;
+    top: 13rem;
+    left: 15rem}
+.row-one
+    {width: 100%;
+    height: 4rem;
+    font-size: 2.2rem;
+    text-indent: 4rem;
+   border-bottom: solid thin #e1e5e7;
+    line-height: 3.5rem;
+   }
+
+.vertical-line-blue
+    {width: 0.3rem;
+    height: 2rem;
+    padding: 0;
+    border: none;
+    background:#5fc0cd;
+    position: relative;
+    top: -2.5rem;
+    left: 2rem;
+    }
+.vertical-line
+{width:0.1rem;
+    height:1.5rem;
+    background:#e1e5e7;
+    position: relative;
+    top: -2.8rem;
+    left: 7rem}
+.row--one{width: 100%;
+          height: auto;
+          min-height: 4rem;
+          word-wrap: break-word;
+          border-bottom: solid thin #e1e5e7 ;
+          font-size: 2rem;
+          float: left;
+          line-height: 4rem}
+.row-one-last{
+    width: 95%;
+    height: 4rem;
+    height: auto;
+    min-height: 4rem;
+    margin: 0 0 0 5rem;
+    word-wrap:break-word;
+    display: inline;
     border-bottom: solid thin #e1e5e7;
-    position: relative;;
-    line-height: 270%;
-    text-indent:3% }
-.h{width: 97%;
-    height: 5rem;
+    font-size: 2rem;
+    float: right;
+    line-height:4rem;
+}
+.row{width: 95%;
+    height: 4rem;
+    margin: 0 0 0 5rem;
     word-wrap:break-word;
     border-bottom: solid thin #e1e5e7;
     font-size: 2rem;
-    text-indent: 2rem;
+    float: right;
+    line-height: 4rem;}
+.vertical-line-two
+{width:0.1rem;
+    height:1.5rem;
+    background:#e1e5e7;
     position: relative;
-    left: 3%;
-    line-height: 270%;
+    top: -6.8rem;
+    left: 8.5rem}
+.vertical-line-last{
+    width:0.1rem;
+    height:1.5rem;
+    margin: 0 0 0 8.5rem;
+    background:#e1e5e7 ;
+    position: absolute;
+    top: 43rem;
     }
-.i{position: relative;
-    top: 0.3rem;
-    left: -2rem}
-.j{width: 2rem;
+.text-row--gray{
+    width: auto;
+    height: auto;
+    min-height: 4rem;
+    display: inline;
+    font-size: 2rem;
+    color: #999999;
+}
+.text-row-gray{
+    font-size: 2rem;
+    color: #999999;
+}
+.text-row{
+    font-size: 2rem;
+    position: relative;
+    top: -4rem;
+    text-indent: 11rem
+}
+.text-row-last{
+    word-wrap:break-word;
+    font-size: 1.5rem;
+    margin: 0 0 0 10rem;
+    padding: 0;
+    line-height: 130%;
+    position: absolute;
+    top: 42.5rem;
+    }
+
+.star{width: 2rem;
     height: 2rem;
+    margin: 0;
+    padding: 0;
     background-size: cover;
     position: relative;
-    top:0.5rem;
-    left: -0.5rem}
-.k{width:0.2rem;
-   height:2rem;
-   background:#e1e5e7;
-   position: relative;
-   top: -3.8rem;
-   left: 9rem}
-.l{width: 2rem;
+    top: 0.7rem;
+   }
+.star-second
+{width: 2rem;
     height: 2rem;
+    margin: 0 2.5rem 0 0;
     background-size: cover;
     position: relative;
-    top:0.5rem;
-    left: 3rem}
-.m{font-size: 2rem;
-   position: relative;
-   top: -7.3rem;
-   text-indent: 14rem}
-.n{font-size: 2.2rem;
-   color: #999999;}
-.k1{width:0.2rem;
-    height:2rem;
-    background:#e1e5e7;
-    position: relative;
-    top: -3.8rem;
-    left: 12rem}
-.k2{width:0.2rem;
-    height:2rem;
-    background:#e1e5e7;
-    position: relative;
-    top: -3.8rem;
-    left: 16rem}
-.m1{font-size: 2rem;
+    top: 0.7rem;
+    left: 2rem}
+.text-row-red{font-size: 2rem;
     color: red;
     position: relative;
-    top: -7.3rem;
-    text-indent: 14rem}
-.h1{width: 60%;
-    word-wrap:break-word;
-    font-size: 1.3rem;
-    position: absolute;
-    text-indent: 0;
-    top:1rem ;
-    left: 13rem;
-    line-height: 110%}
-.o{width: 40%;
+    top: -4rem;
+    text-indent: 11rem}
+.text-row--gray{
+    text-indent: 5rem;
+    color: #999999 ;
+    font-size: 2rem;
+}
+
+
+.button-white{width: 40%;
    height: 5rem;
    border-radius: 1rem;
-   border: solid thin #5fc0cd;
-   text-align: center;
-   font-size: 1.3rem;
-   color: #5fc0cd;
-   position: relative;
-   top: 1rem;
-   left: 5%;
-   background-color: white}
-.o1{width: 40%;
+    border:solid thin #5fc0cd;
+   outline:medium ;
+   background-color: white;
+   color:#5fc0cd;
+   font-size: 2rem;
+    position: relative;
+    top:5rem;
+    left:5%;
+
+   }
+.button-blue{width: 40%;
     height: 5rem;
     border-radius: 1rem;
     border: solid thin white;
-    text-align: center;
-    font-size: 1.3rem;
+    outline: medium;
+    font-size: 2rem;
     color: white;
+    background-color: #5fc0cd;
     position: relative;
-    top: 1rem;
-    left: 10%;
-    background-color: #5fc0cd }
+   top: 5rem;
+   right: -10%}
