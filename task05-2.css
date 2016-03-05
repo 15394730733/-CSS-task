@@ -60,7 +60,7 @@ body{
     border-bottom:solid thin #e1e5e7;
 }
 .head-two-box{
-    width: 26%;
+    width: 32%;
     height: 3.8rem;
     margin: 0;
     padding: 0;
@@ -81,6 +81,7 @@ body{
     background:#e1e5e7 ;
     position: relative;
     top: 1rem;
+    left: 20%;
 }
 .head-two-triangle{
 width: 0;
@@ -91,6 +92,7 @@ width: 0;
     border-left: solid 0.65rem transparent;
     border-right: solid 0.65rem transparent;
     display: inline-block;
+
 }
 .row{
     width: 100%;
@@ -199,7 +201,7 @@ width: 0;
     width: auto;
     height: auto;
     position: relative;
-    left: 15%;
+    left: 10%;
 }
 .ending-box-two{
     float: right;
@@ -207,5 +209,5 @@ width: 0;
     width: auto;
     height: auto;
     position: relative;
-    right: 15%;
+    right: 10%;
 }
