@@ -1,0 +1,211 @@
+html{font-size: 62.5%}
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 0 10% 0;
+    padding: 0 0 10% 0;
+    min-width:320px;
+    _width:expression((document.documentElement.clientWidth||document.body.clientWidth)<320?"320px":"");
+}
+.head{
+    width: 100%;
+    height: 4.4rem;
+    background: #5fc0cd;
+}
+.head-button-one{
+    width: 20vw;
+    height: 3.6rem;
+    border: solid thin #55a8b3 ;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border-radius: 1rem;
+    background: #55a8b3;
+    font-size: 1.7rem;
+    text-align: center;
+    line-height: 3.6rem;
+    color: #FFFFFF;
+    position: relative;
+    top: 0.3rem;
+    left:30%}
+.head-button-twe{
+    width: 20vw;
+    height: 3.6rem;
+    margin: 0;
+    padding: 0;
+    border: solid thin white;
+    outline: none;
+    border-radius: 1rem;
+    background: #ffffff;
+    font-size: 1.7rem;
+    line-height: 3.6rem;
+    color: #5fc0cd;
+    text-align: center;
+    position: relative;
+    top: 0.3rem;
+    left: 29%;
+}
+.head-img{
+    width: 1.8%;
+    float: right;
+    position: relative;
+    top:1rem ;
+    right:1rem;
+}
+.head-two{
+    width: 100%;
+    height: 4rem;
+    margin: 0;
+    padding: 0;
+    border-bottom:solid thin #e1e5e7;
+}
+.head-two-box{
+    width: 26%;
+    height: 3.8rem;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 4rem;
+    color: #afbac0;
+    display: inline-block;
+}
+.head-two-vertical-line{
+    width: 0.1rem;
+    height: 2.5rem;
+    margin: 0;
+    padding: 0;
+    border: none;
+    display: inline-block;
+    background:#e1e5e7 ;
+    position: relative;
+    top: 1rem;
+}
+.head-two-triangle{
+width: 0;
+    height: 0;
+    margin:0;
+    padding: 0;
+    border-top: solid 0.65rem #afbac0;
+    border-left: solid 0.65rem transparent;
+    border-right: solid 0.65rem transparent;
+    display: inline-block;
+}
+.row{
+    width: 100%;
+    height: 9rem;
+    margin: 0;
+    padding: 0;
+    border-bottom: solid thin #e1e5e7;
+    font-size: 1.3rem;
+    float: left;
+}
+.row-img-one{
+    position:relative;
+    top: 1.5rem;
+    left: 1rem;
+}
+.row-img-two{
+    position:relative;
+    top: 0.5rem;
+    left: 1rem;
+}
+.row-img-three{
+    float: right;
+    position: relative;
+    top: -8rem;
+    right: 1rem;
+}
+.row-text-one{
+    color: #999999;
+    text-indent: 4rem;
+    font-size: 1.7rem;
+    position: relative;
+    top: -0.5rem;
+}
+.row-text-two{
+    text-indent: 4rem;
+    font-size: 1.4rem;
+}
+.row-text-three {
+    color: #999999;
+    text-indent: 4rem;
+    font-size: 1.7rem;
+    position: relative;
+    top: -1.5rem;
+}
+.row-text-red {
+    color: red;
+    text-indent: 4rem;
+    font-size: 2rem;
+    text-align: right;
+    position: relative;
+    top: -5.5rem;
+    right: 3rem;
+}
+.ending{
+      width: 100%;
+      min-height: 5rem;
+      height: auto;
+      text-align: center;
+      border-top:solid thin #e1e5e7 ;
+}
+.ending-circular{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 4.7rem;
+    height: 4.7rem;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    background: #5fc0cd;
+}
+.ending-img-one{
+    display: inline-block;
+     position: relative;
+    top: 0.7rem; ;
+}
+.ending-img-two{width: 3rem;
+    display: inline;
+}
+.ending-img-three{width: 3rem;
+    display: inline;
+}
+.ending-text-blue{
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: inline-block;
+    font-size: 1rem;
+    color:#5fc0cd;
+    position: relative;
+    top: 3rem;
+    left: 2.5rem;
+}
+.ending-text-gray{
+    float: right;
+    display: inline-block;
+    font-size: 1rem;
+    color:#999999;
+    position: relative;
+    top: 3rem;
+    left: -2.5rem;
+}
+.ending-box-one{
+    float: left;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    position: relative;
+    left: 15%;
+}
+.ending-box-two{
+    float: right;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    position: relative;
+    right: 15%;
+}
