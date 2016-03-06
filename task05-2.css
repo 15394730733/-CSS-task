@@ -43,10 +43,10 @@ body{
     text-align: center;
     position: relative;
     top: 0.3rem;
-    left: 29%;
+    left: 28%;
 }
 .head-img{
-    width: 1.8%;
+    width:2rem;
     float: right;
     position: relative;
     top:1rem ;
@@ -200,6 +200,7 @@ width: 0;
     display: inline-block;
     width: auto;
     height: auto;
+    margin: 0.5rem 0 0 0 ;
     position: relative;
     left: 10%;
 }
@@ -208,6 +209,7 @@ width: 0;
     display: inline-block;
     width: auto;
     height: auto;
+    margin: 0.5rem 0 0 0 ;
     position: relative;
     right: 10%;
 }
