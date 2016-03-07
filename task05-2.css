@@ -27,8 +27,7 @@ body{
     color: #FFFFFF;
     position: relative;
     top: 0.3rem;
-    left:30%
-}
+    left:30%}
 .head-button-twe{
     width: 20vw;
     height: 3.6rem;
@@ -114,11 +113,29 @@ width: 0;
     top: 0.5rem;
     left: 1rem;
 }
-.row-img-three{
+.row-triangle{
     float: right;
     position: relative;
     top: -8rem;
-    right: 1rem;
+    right: 2rem;
+}
+.row-triangle:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-left: solid 2rem #5fc0cd;
+    border-top: solid 2rem transparent;
+    border-bottom: solid 2rem transparent;
+}
+.row-triangle:after{
+    content: "";
+    position: absolute;
+    top: 0.3rem;
+    left:0;
+    border-left: solid 1.7rem white;
+    border-top: solid 1.7rem transparent;
+    border-bottom: solid 1.7rem transparent;
 }
 .row-text-one{
     color: #999999;

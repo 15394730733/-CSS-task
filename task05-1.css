@@ -13,14 +13,33 @@ body{width:100%;
     padding: 0;
     border: none;
    background-color: #5fc0cd;
-   font-size: 2rem;
+    font-size: 2rem;
    color: #FFFFFF;
    text-align: center;
    line-height: 240%}
-.arrow{width: 1.5rem;
-    height: 4rem;
+.arrow{
     position:absolute;
-    left: 1.5rem}
+    left: 1.5rem;
+    top: 0.8rem;
+}
+.arrow:before{
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    border-right: solid 1.5rem white;
+    border-top: solid 1.5rem transparent;
+    border-bottom:  solid 1.5rem transparent;
+}
+.arrow:after{
+    content:"";
+    position: absolute;
+    top: 0.3rem;
+    left: 0.3rem;
+    border-right: solid 1.2rem #5fc0cd;
+    border-top: solid 1.2rem transparent;
+    border-bottom: solid 1.2rem transparent;
+}
 .head-background
      {height: 16rem;
     background: url("task5-1_02.png");
