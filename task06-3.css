@@ -21,11 +21,27 @@ body{
     top: 1vw;
     left: 1vw;
 }
-.head-img-two{float: right;
+.head-img-two{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2rem;
+    border: white solid 0.2rem;
+    text-align: center;
+    float: right;
     position: relative;
     top: 1vw;
     right: 1vw;
 }
+.head-img-two-point{
+    width: 0.2rem;
+    height: 0.2rem;
+    background: white;
+    display: inline-block;
+    line-height: 0;
+}
+
+
+
 .row-one{
     width: 100%;
     height: auto;
