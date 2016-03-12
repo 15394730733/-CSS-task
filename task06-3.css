@@ -36,8 +36,22 @@ body{
     width: 0.2rem;
     height: 0.2rem;
     background: white;
+    margin: 0;
     display: inline-block;
     line-height: 0;
+    position: relative;
+    top: -2rem;
+    left: 0.6rem;
+}
+.head-img-two-vertical-line{
+    width: 0.2rem;
+    height: 1rem;
+    margin: 0;
+    background: white;
+    display: inline-block;
+    position: relative;
+    top: -0.8rem;
+    left: -0.6rem;
 }
 
 
