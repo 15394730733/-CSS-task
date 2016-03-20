@@ -1,88 +1,13 @@
 html{font-size: 62.5%}
 body{
-    margin: 0;
+    width: 1364px;
+    margin: auto;
     padding: 0;
 }
 a{
     text-decoration: none;
 }
-.head{
-    width: 1364px;
-    height: 12rem;
-    margin: auto ;
-}
-.head-first-row{
-    width: 100%;
-    height: 4rem;
-}
-.head-phone{
-    height: 4rem;
-    margin: 0 0 0 8.75%;
-    color: #29b078;
-    float: left;
-    font-size: 1.5rem;
-    font-weight: 600;
-    line-height: 4rem;
-}
-.head-icon-one{
-    width: 2.1rem;
-    height: 2.1rem;
-    border-radius: 2rem;
-    margin: 1rem 8.75% 0 0;
-    float: right;
-    background-image: url("task07-1.png");
-    background-position:-100px -25px ;
-}
-.head-icon-two{
-     width: 2.1rem;
-     height: 2.1rem;
-     border-radius: 2rem;
-     margin: 1rem 1% 0 0 ;
-     float: right;
-     background-image: url("task07-1.png");
-     background-position:-99px 0 ;
-}
-.head-icon-three{
-    width: 2rem;
-    height: 2rem;
-    border-radius: 1rem;
-    margin: 1rem 1% 0 0;
-    float: right;
-    background-image: url("task07-1.png");
-    background-position:-62px -113px;
-}
-.guide{
-    width: 1364px;
-    height: 8rem;
-    background:#29b078;
-    font-size: 2rem;
-}
-.guide-first-img{
-    width: auto;
-    height: auto;
-    margin: 2.5rem 0 0 8.75% ;
-    display: inline-block;
-}
-.guide-links{
-    color: white;
-}
-.guide-first-links,.guide-second-links,.guide-third-links,.guide-fourth-links{
-    width: auto;
-    height: auto;
-    float: right;
-}
-.guide-first-links{
-    margin: 3rem 8.75% 0 0 ;
-}
-.guide-second-links{
-    margin: 3rem 3% 0 0;
-}
-.guide-third-links{
-    margin: 3rem 3% 0 0 ;
-}
-.guide-fourth-links{
-    margin: 3rem 3% 0 0 ;
-}
+
 .content{
     width: 1364px;
     height: 1700px;
@@ -194,43 +119,6 @@ a{
 .content-right-row-text{
     margin: 4% 5% 7% 5%;
 }
-.bottom{
-    width: 1364px;
-    height: 15rem;
-    margin: auto ;
-    background: #26a26f;
-    color: white;
-}
-.bottom-row-one{
-    width: 200px;
-    height: 50px;
-    font-size: 1.6rem;
-    font-weight:600 ;
-    margin: 0 0 20% 8.75% ;
-    display: inline-block;
-    position: relative;
-    top: 3rem;
-}
-.bottom-row--one{
-    width: 200px;
-    height: 50px;
-    font-size: 1.6rem;
-    font-weight: 600;
-    margin: 0 0 0 10% ;
-    display: inline-block;
-    position: relative;
-    top: 3rem;
-}
-.cross{
-    width:20px;
-    height: 2px;
-    display: inline-block;
-    background: white;
-    position: relative;
-    top: -0.5rem;
-}
-.bottom-links{
-    margin: 8.75%;
-    color: white;
-
+.guide-second-links{
+    border-bottom: solid 0.5rem white;
 }

@@ -1,0 +1,24 @@
+.sliderWrap ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;/*list-style：定义列表项目标记*/
+}
+.sliderWrap{
+    width:1364px;
+    height: 420px;
+    overflow: hidden;/*overflow定义超出屏幕外的内容的显示方式*/
+    margin: 0 auto;
+}
+.sliderWrap ul{/*派生选择器*/
+    position: relative;
+    width: 6820px;
+    transition: left .5s ease;/*left值表示使用在向左移动上有平滑效果，.5s是需要0.5s完成效果，ease是速度曲线*/
+    left: 0;/*规定元素的左边缘*/
+}
+.sliderWrap li{
+    position: relative;
+    float: left;/*浮动方向向左*/
+}
+.sliderWrap ul li img{
+    width: 1364px;
+}
