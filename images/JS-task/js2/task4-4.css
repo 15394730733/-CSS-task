@@ -1,0 +1,134 @@
+html{
+    font-size:62.5%
+}
+body{
+    width: 640px;
+}
+
+.header{
+    background-color: #29bde0;
+    width: 640px;
+    padding-bottom: 1rem; ;
+}
+.header .title{
+    color: #ffffff;
+    height: 5rem;
+    text-align: center;
+    padding:0 17px;
+    font-size: 3rem;
+    line-height: 5rem;
+}
+.header .title .menu{
+    width: 34px;
+    height: 30px;
+    border: solid 2px #ffffff;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 20px ;
+    cursor: pointer;
+    font-size: 0;
+    float: left;
+    line-height: 0;
+}
+.header .title .close{
+    float: right;
+    margin-top: 0.5rem;
+}
+.header .title .menu .line{
+    width: 80%;
+    height: 3px;
+    background-color: white;
+    display: inline-block;
+    margin: 2px 0 5px 0 ;
+}
+.head-two{
+    float: right;
+    margin-right: 2rem;
+}
+
+.head-two-circular{
+    width: 4rem;
+    height: 4rem;
+    margin: 2rem 0 0 0;
+    border-radius: 4rem;
+    border: solid 3px #ffffff;
+    position:absolute;
+
+}
+.head-two-triangle{
+    width: 0;
+    height: 0;
+    margin: 0.5rem 0 0 1.5rem;
+    border-left: solid white 1.5rem;
+    border-top: solid transparent 1.5rem;
+    border-bottom: solid transparent 1.5rem;
+}
+.head-three{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background: #29bde0;
+}
+.head-three-text{
+    padding-left: 5rem;
+    padding-bottom: 3rem;
+    font-size: 2.4rem;
+    color: white;
+}
+.content{
+    background-color: #29bde0;
+    min-height: 40rem;
+    text-align:center;
+    padding: 0 0 4rem 0;
+    border-top: solid 1px #cbe2e7;
+}
+.content img{
+    margin: 5rem 0 5rem 0;
+
+}
+.content .text{
+    color: #ffffff;
+    font-size: 3rem;
+}
+.step{
+    background-color: #29bde0;
+    min-height: 20rem;
+    text-align:center;
+    padding:4rem 0 15rem 0;
+    border-top: solid 1px #cbe2e7;
+}
+.step .text{
+    width:70%;
+    height: 6rem;
+    margin: 1rem 15% 0 15%;
+    display: inline-block;
+    background-color:#24a7c6;
+    font-size: 4rem;
+    line-height: 6rem;
+    color: #ffffff;
+}
+.step img{
+    display: inline-block;
+}
+body .button{
+    position: fixed;
+    bottom: 0;
+    width: 640px;
+    height: 15rem;
+    background:#29bde0 ;
+    text-align: center;
+}
+body .button button{
+    width: 76.5%;
+    height: 10rem;
+    margin: 2.5rem auto;
+    background:#fbb435 ;
+    color: #ffffff;
+    font-size: 4rem;
+    cursor: pointer;
+    border: none;
+}
+body .button button:hover{
+    background: #fabd50;
+}

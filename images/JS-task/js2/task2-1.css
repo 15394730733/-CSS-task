@@ -1,0 +1,21 @@
+.main{
+    background-color: #29bde0;
+    color: white;
+    font-size: 4rem;
+}
+.header{
+    width: 640px;
+    color: white;
+}
+.middle{
+
+    padding: 20% 0 34% 0;
+    text-align: center;
+}
+.img{
+    display: inline-block;
+}
+.text{
+    display: inline-block;
+
+}

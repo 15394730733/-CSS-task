@@ -1,0 +1,96 @@
+.header{
+    background-color: #29bde0;
+    width: 640px;
+}
+.header .menu{
+    color: #ffffff;
+    height: 5rem;
+    text-align: center;
+    padding:0 17px;
+    font-size: 3rem;
+    line-height: 5rem;
+    border-bottom:solid thin #74d4eb ;
+
+}
+.header .menu .triangle{
+    float: left;
+    font-size: 0;
+    position: relative;
+    cursor: pointer;
+}
+.header .menu .triangle:before{
+    content: "";
+    position:relative;
+    top: 0;
+    left: 0;
+    border-right: 1.5rem solid #ffffff;
+    border-top: 1.5rem solid transparent;
+    border-bottom: 1.5rem solid transparent;
+}
+.header .menu .triangle:after{
+    content: "";
+    position:relative;
+    left: -1rem;
+    border-right: 1.5rem solid #29bde0 ;
+    border-top: 1.5rem solid transparent;
+    border-bottom:  1.5rem solid transparent;
+}
+.header .menu .close{
+    float: right;
+    margin-top: 0.5rem;
+}
+.content{
+    background-color: #29bde0;
+    min-height: 80rem;
+    text-align:left;
+    padding: 4rem 0;
+    border-top: solid 1px #cbe2e7;
+}
+
+.content .box{
+    width: 12rem ;
+    display:inline-block;
+    height:12rem ;
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+    margin-bottom: 3rem;
+    border: solid 3px #ffffff;
+}
+.content .box img{
+    position: absolute;
+    z-index: 1;
+    width: 12rem;
+}
+.content .box .bottom{
+    background: rgba(33,170,203,0.6);
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    z-index: 2;
+    font-size: 2rem;
+    width: 12rem;
+    margin-top: 9rem;
+}
+body .button{
+    position: fixed;
+    bottom: 0;
+    width: 640px;
+    height: 15rem;
+    background:#29bde0 ;
+    text-align: center;
+}
+body .button button{
+    width: 76.5%;
+    height: 10rem;
+    margin: 2.5rem auto;
+    background:#fbb435 ;
+    color: #ffffff;
+    font-size: 4rem;
+    cursor: pointer;
+    border: none;
+}
+body .button button:hover{
+    background: #fabd50;
+}

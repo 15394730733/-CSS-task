@@ -1,0 +1,149 @@
+
+.header{
+    background-color: #29bde0;
+    width: 640px;
+}
+.header .menu{
+    color: #ffffff;
+    height: 5rem;
+    text-align: center;
+    padding:0 17px;
+    font-size: 3rem;
+    line-height: 5rem;
+    border-bottom:solid thin #74d4eb ;
+
+}
+.header .menu .triangle{
+    float: left;
+    font-size: 0;
+    cursor: pointer;
+}
+.header .menu .triangle:before{
+    content: "";
+    position:relative;
+    top: 0;
+    left: 0;
+    border-right: 1.5rem solid #ffffff;
+    border-top: 1.5rem solid transparent;
+    border-bottom: 1.5rem solid transparent;
+}
+.header .menu .triangle:after{
+    content: "";
+    position:relative;
+    left: -1rem;
+    border-right: 1.5rem solid #29bde0 ;
+    border-top: 1.5rem solid transparent;
+    border-bottom:  1.5rem solid transparent;
+}
+.header .menu .close{
+    float: right;
+    margin-top: 0.5rem;
+}
+.content{
+    background-color: #f0f0f0;
+    min-height: 80rem;
+    text-align:left;
+    padding: 4rem 0;
+    border-top: solid 1px #cbe2e7;
+}
+
+.content .box{
+    background: #ffffff;
+    width: 95%;
+    border: solid thin #e2e2e2;
+    margin: 0 auto;
+    color: #14b7dd;
+    font-size: 3rem ;
+    text-align: center;
+    line-height: 7rem;
+    text-indent: 6rem;
+}
+.content .box button{
+    float: right;
+    width: 4rem;
+    height: 4rem;
+    margin: 1.5rem 2rem 0 0;
+    background-color: #ffffff;
+    border: none;
+}
+.content .box button .triangle{
+    font-size: 0;
+    position: relative;
+    top: -0.8rem;
+    left: 0.5rem;
+    cursor: pointer;
+}
+
+.content .box button .triangle:before{
+    content: "";
+    position:absolute;
+    right: 1rem;
+    top: 0.2rem;
+    border-top: 1.5rem solid #12b6dc;
+    border-left: 1.5rem solid transparent;
+    border-right: 1.5rem solid transparent;
+}
+.content .box button .triangle:after{
+    content: "";
+    position:absolute;
+    right: 1rem;
+    border-top: 1.5rem solid #ffffff;
+    border-left: 1.5rem solid transparent;
+    border-right: 1.5rem solid transparent;
+}
+
+
+.content .box .text{
+    margin-left: 4rem ;
+    border-left: solid 2px #dbdbdb;
+    padding-bottom: 10rem;
+    cursor: pointer;
+}
+
+.content .box .text .rectangle{
+    width:80%;
+    height: 5rem;
+    background-color: #24a7c6;
+    color:#ffffff;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 5rem;
+    margin: 1rem 2rem 1rem 0;
+    text-indent: 0;
+    position: relative;
+    float: right;
+    cursor: pointer;
+}
+.content .box .text .rectangle:hover{
+    color: #e8e8e8;
+}
+.content .box .text .rectangle:before{
+    content: "";
+    display: block;
+    font-size: 0;
+    position: absolute;
+    left: -1rem;
+    top: 1.5rem;
+    border-right: 1rem solid #24a7c6;
+    border-top: 1rem solid transparent;
+    border-bottom: 1rem solid transparent;
+}
+.content .box .text .circular{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 3rem;
+    border: solid 2px #dbdbdb;
+    float: left;
+    margin: 1rem 0 0 -1.2rem;
+    background-color: #ffffff;
+
+}
+.content .box .text .circular img{
+    margin: 0.8rem auto;
+    display: block;
+    line-height: 0;
+    text-indent: 0;
+}
+.padding-top{
+    padding-top: 2rem;
+}

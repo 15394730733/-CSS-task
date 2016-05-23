@@ -1,0 +1,18 @@
+#text{
+    border: solid thin rebeccapurple;
+}
+p{
+    font-size: 3rem;
+    color: #00ABFF;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+
+}
+#text div{
+    font-size: 3rem;
+    color:red;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
