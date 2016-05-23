@@ -1,0 +1,182 @@
+.content-links{
+    font-size: 1.7rem;
+    margin: 1% 0 1% 0;
+}
+.content-row{
+    height:auto;
+    line-height: 5rem;
+    color: #999999;
+    border-bottom: solid thin #edf1f2;
+    border-top: solid thin #d0d6d9;
+}
+
+.content-row-box,.content-row--box,.content-row---box{
+    width: 8rem;
+    height: auto;
+    text-align: center;
+    line-height: normal;
+    display: inline-block;
+    color: black;
+    padding: 1% 0;
+    font-size: 1.4rem;
+}
+.content-row---box{
+    font-size: 1.2rem;
+    color: #999999;
+ }
+.content-row-box:hover{
+    color:white;
+    background: #29b078;
+}
+
+
+.content-row--box{
+    color:white;
+    background: #29b078;
+}
+.title{
+    width: auto;
+    height: 5rem;
+    font-weight: 600;
+    font-size: 1.7rem;
+    line-height: 5rem;
+    color: black;
+    margin: 0 0 5% 0;
+    border-bottom: solid thin #d0d6d9;
+}
+.border{
+    border-left:solid thin #eeeded;
+    border-right:solid thin #eeeded;
+    border-top:solid thin #f6f6f6;
+    border-bottom:solid thin #e2e2e2 ;
+    background: white;
+    padding: 0;
+}
+.border-bottom{
+    border-bottom: solid thin #edf1f2;
+}
+.border-right{
+    border-right: solid thin #edf1f2;
+}
+.border-left{
+    border-left: solid thin #edf1f2;
+}
+.border-top{
+    border-top: solid thin #edf1f2;
+}
+.border img{
+    margin: 1rem 0 ;
+}
+.nopadding{
+   padding: 0;
+}
+.nopadding-right{
+    padding-right:0 ;
+}
+.nopadding-left{
+    padding-left:0 ;
+}
+.box-one-title{
+    color: black;
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin: 1rem 0 0.5rem 0;
+    float: left;
+}
+.box-one-content{
+    width:90%;
+    color: black;
+    word-wrap: break-word;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    float: left;
+}
+.box-two-title{
+    font-size: 1.2rem;
+    height:auto;
+    line-height: 3rem;
+    color: #999999;
+    float: left;
+}
+.box-two--title{
+    font-size: 1.2rem;
+    height:auto;
+    line-height: 2rem;
+    color: #999999;
+    float: left;
+}
+.margin{
+    margin: 0 0.5rem 0 0.5rem;
+}
+.color{
+    line-height: 2.5em;
+    color: #ff5c00;
+    display: inline-block;
+}
+.color-star{
+    line-height: 2.5em;
+    color: #f01400;
+    display: inline-block;
+}
+.font-size{
+    font-size: 1.5rem;
+}
+.height3{
+    height: 3rem;
+}
+.text-align{
+    text-align: center;
+    line-height: 9rem;
+    padding: 0 0 0 25%;
+}
+.row-100{
+    width: 100%;
+    margin: 0;
+}
+.nomargin{
+    margin: 0;
+}
+.line-height{
+    line-height: 3rem;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.padding{
+    padding-left: 15px;
+}
+.margin-top{
+    margin: 5% 0;
+}
+/*接下来是卡片翻转的效果*/
+.box-transparent{
+    background: rgba(153,223,240,1);
+    width: 100%;
+    height: 100%;
+}
+.box-back{
+    background: rgba(61,61,61,0.6) ;
+    color: white;
+    margin: 0 0 0 0;
+    border: solid thin #e2e2e2;
+    display: inline-block;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.5rem;
+}
+.box-back-title{
+    font-size: 1.6rem;
+    display: inline-block;
+    margin: 10% 0 0 0;
+}
+.box-back--title{
+    font-size: 1.5rem;
+    display: inline-block;
+    margin: 10% 8% 35% 8%;
+    text-align: left;
+    text-indent: 2rem;
+    line-height: 2rem;
+}
+.box-box{
+    z-index: 1;
+    padding: 0 15px 0 15px;
+}

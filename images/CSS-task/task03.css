@@ -1,0 +1,86 @@
+html{
+    font-family: Microsoft YaHei, serif;
+}
+body{
+    background-color:#68cdd5;
+    margin: 0 0 20% 0 ;
+    padding: 0 0 20% 0;
+}
+p{
+    font-size: 4.5vw;
+    color: white;
+    line-height: 185%;
+}
+.head{
+    font-size: 3.75vw;
+    height: 13.75vw;
+    background: #22292c;
+    color: #f8f6f5;
+    margin: -0.3rem 0 0 0 ;
+    text-align: center;
+}
+.head-text{
+    margin: 4vw 0 0 0;
+    float: left;
+}
+.head--text{
+    font-size: 5vw;
+    margin: 3.43vw 0 0 -5%;
+    display: inline-block;
+}
+.head-circular,.head--circular{
+    background:#f8f6f5 ;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 1vw;
+    float: right;
+    margin: 6.25vw 7% 0 0;
+}
+.head--circular{
+    margin: 6.25vw 1% 0 0;
+}
+.head-arrow:after,.head-arrow:before{
+    border-bottom:solid transparent 3vw;
+    border-top: solid transparent 3vw;
+    border-right:solid #22292c 3vw;
+    width: 0;
+    height: 0;
+    float: left;
+    margin: 3.75vw 0 0 -2%;
+    content:' ';
+    font-size: 0;
+}
+.head-arrow:before{
+    border-right:solid #f8f6f5 3vw;
+    margin: 3.75vw 0 0 5%;
+}
+
+
+.logo{text-indent: 30%;
+    position: relative;
+    top: 2.6em;  }
+.text{
+    font-family:Microsoft YaHei, serif;
+    text-indent:14%;
+    line-height: 4.375vw;
+    position: relative;
+    top: 5em}
+.arrow{text-indent: 4.5%;
+    position: relative;
+    top: 0.8em;}
+.logo-people {text-indent: 22%;
+    position: relative;
+    top:10.2em;}
+.logo-grape{text-indent: 67%;
+    position: relative;
+    top: 5.45em;}
+.note,.note-one{
+    font-size: 3.125vw;
+    color: white;
+    margin: 20% 0 0 20%;
+    float: left;
+}
+.note-one{
+    float: right;
+    margin: 20% 19% 0 0;
+}

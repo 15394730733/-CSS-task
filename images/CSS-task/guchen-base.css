@@ -1,0 +1,194 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+/*bootstrap默认p元素margin: 0 0 10px; 上面的*无法覆盖*/
+p {
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width: 1220px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+@media screen and (max-width: 992px) {
+    html {
+        font-size: 52.5%;
+    }
+}
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 42.5%;
+    }
+}
+body {
+    background: #fafafa;
+    font-family: Microsoft YaHei, serif;
+    font-size: 1.4rem;
+}
+h1 {
+    font-size: 3.6rem;
+    color: #fff;
+}
+@media screen and (max-width: 992px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
+h2 {
+    padding: 2rem;
+    font-size: 1.8rem;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+}
+h6 {
+    font-size: 1rem;
+    color: #fff;
+}
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+ul {
+    list-style: none;
+}
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.header-top p {
+    line-height: 4rem;
+    color: #1db176;
+}
+.icon-header li {
+    float: right;
+    padding: 1.2rem .5rem;
+}
+@media screen and (max-width: 767px) {
+    .icon-header li {
+        float: left;
+    }
+}
+.icon-header1-weixin {
+    width: 25px;
+    height: 24px;
+    background: url("images/sprite.png") -62px -113px;
+    margin-right: .6rem;
+}
+.icon-header1-qq {
+    width: 25px;
+    height: 24px;
+    background: url("images/sprite.png") -99px 0;
+    margin-right: .6rem;
+}
+.icon-header1-weibo {
+    width: 25px;
+    height: 24px;
+    background: url("images/sprite.png") -99px -26px;
+    margin-right: .6rem;
+}
+nav {
+    background: #1db176;
+}
+.header-bottom .logo {
+    color: #fff;
+}
+span.glyphicon.glyphicon-menu-hamburger {
+    font-size: 4rem;
+}
+.white {
+    border-bottom: 5px solid #fff;
+}
+
+.nav li {
+    padding: 2rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+.nav li:hover {
+    border-bottom: 5px solid #fff;
+}
+.nav li a:hover {
+    background-color: #1db176;
+}
+footer {
+    background: #1ba36e;
+}
+footer {
+    overflow: hidden;
+    margin-top: 5rem;
+    background-color: #26a26f;
+    color: #fff;
+}
+.footer-top {
+    width: 100%;
+    padding: 1.8rem 0;
+    background-color: #fff;
+    color: #999;
+}
+.link ul {
+    height: 3rem;
+}
+.link ul li {
+    float: left;
+    width: 7rem;
+    margin: 1rem 1rem;
+    list-style-type: disc;
+    font-size: 1.4rem;
+    color: #999;
+    line-height: 3.2rem;
+}
+.link a {
+    color: #999;
+}
+.footer-middle-left p {
+    font-size: 1.6rem;
+    padding-top: 3.2rem;
+}
+.footer-middle-left ul {
+    float: left;
+    padding-top: 6rem;
+}
+.footer-middle-left ul li {
+    display: inline-block;
+}
+.footer-middle-middle p {
+    font-size: 1.6rem;
+    padding-top: 3.2rem;
+    padding-bottom: 2rem;
+}
+.footer-middle-middle ul {
+    overflow: hidden;
+}
+.footer-middle-middle ul li {
+    float: left;
+    padding-right: 3rem;
+    margin: 1rem 0;
+}
+.footer-middle-right p {
+    font-size: 1.6rem;
+    padding-top: 3.2rem;
+    padding-bottom: 1rem;
+}
+.footer-bottom {
+    width: 100%;
+    margin-top: 2rem;
+    height: 3rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+    line-height: 3rem;
+    border-top: 1px solid #32c086;
+    background: #1ba36e;
+}

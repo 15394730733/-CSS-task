@@ -1,0 +1,57 @@
+html{font-size: 62.5%
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('stars.jpg');
+    background-size: cover;
+    opacity: 0.6;
+}
+
+.text{
+    width: 100%;
+    font-size: 5vw;
+    text-align: center;
+
+    color: white;
+}
+.links-one{
+    width: 4vw;
+    height: 4vw;
+    border: 0;
+    border-radius: 5vw;
+    margin: 0 0 0 10vw;
+    background-size: cover;
+    background-image: url('star-1.png');
+
+}
+.botton{
+    margin: 1rem 0;
+    width: 8rem;
+    height: 3.5rem;
+    border-radius: 1rem;
+    font-size: 1.8rem;
+}
+.css{
+    width: 4vw;
+    height: 4vw;
+    border-radius: 5vw;
+    background-size: cover;
+    background-image: url('star-2.png');
+}
+#one{
+}
+.one{
+    margin: 0 0 0 4rem;
+    padding: 0;
+}
+.one-text{
+    margin: 3rem 0 0 0;
+    color: white;
+    font-size: 2vw;
+}
+.option{
+    margin: 1rem 0 0 0 ;
+}
